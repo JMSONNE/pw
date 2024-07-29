@@ -1,6 +1,6 @@
 import React from 'react';
 import Avatar from '@mui/material/Avatar';
-import '../src/styles.css'
+import '../../src/styles.css'
 import profilePic from '../../assets/profile_pic.png'
 
 const Home = () => {
