@@ -1,5 +1,5 @@
-import Header from "../Components/Header"
-import MenuAppBar from "../Components/Navbar"
+import Routes from '../Components/Router/Routes'
+import Navbar from "../Components/Navbar"
 import '../src/styles.css'
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
@@ -18,8 +18,10 @@ function App() {
     <>
       <ThemeProvider theme={darkTheme}>
         <CssBaseline />
-        <MenuAppBar />
-        <Header />
+
+        <Navbar />
+        <Routes />
+
       </ThemeProvider>
     </>
   )
