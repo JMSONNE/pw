@@ -1,4 +1,4 @@
-import Router from '../Components/Router/Routes'
+import Router from "../Components/Router/Router";
 import Navbar from "../Components/Navbar"
 import '../src/styles.css'
 import { ThemeProvider, createTheme } from '@mui/material/styles';
