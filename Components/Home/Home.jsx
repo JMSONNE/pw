@@ -49,8 +49,9 @@ const Home = () => {
                             JavaScripts Coffee Co.
                         </Typography>
                         <Typography variant="body2" color="text.secondary">
-                            Lizards are a widespread group of squamate reptiles, with over 6,000
-                            species, ranging across all continents except Antarctica
+                            My capstone porject from my coding bootcamp at Full Stack Academy! The client side is built with
+                            React and uses components from Material UI. The backend is built using Express.js and a PostgreSQL
+                            database.
                         </Typography>
                     </CardContent>
                     <CardActions>
