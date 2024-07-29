@@ -10,6 +10,12 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 
 const Home = () => {
+
+    // Function to handle buttons to external projects
+    const handleJavaScriptsLink = () => {
+        window.open('https://javascripts-coffee.vercel.app', '_blank');
+    };
+
     return (
         <>
             <div>
@@ -48,7 +54,7 @@ const Home = () => {
                         </Typography>
                     </CardContent>
                     <CardActions>
-                        <Button size="small">Visit</Button>
+                        <Button size="small" onClick={handleJavaScriptsLink}>Visit</Button>
                     </CardActions>
                 </Card>
 
