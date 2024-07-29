@@ -1,4 +1,4 @@
-import Routes from '../Components/Router/Routes'
+import Router from '../Components/Router/Routes'
 import Navbar from "../Components/Navbar"
 import '../src/styles.css'
 import { ThemeProvider, createTheme } from '@mui/material/styles';
@@ -20,7 +20,7 @@ function App() {
         <CssBaseline />
 
         <Navbar />
-        <Routes />
+        <Router />
 
       </ThemeProvider>
     </>
