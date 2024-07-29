@@ -49,7 +49,7 @@ const Home = () => {
                             JavaScripts Coffee Co.
                         </Typography>
                         <Typography variant="body2" color="text.secondary">
-                            My capstone porject from my coding bootcamp at Full Stack Academy! The client side is built with
+                            My capstone project from my coding bootcamp at Full Stack Academy! The client side is built with
                             React and uses components from Material UI. The backend is built using Express.js and a PostgreSQL
                             database.
                         </Typography>
