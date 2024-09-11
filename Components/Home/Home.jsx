@@ -10,6 +10,7 @@ import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Grid from '@mui/material/Grid';
+import { Box } from '@mui/material';
 
 const Home = () => {
 
@@ -38,6 +39,13 @@ const Home = () => {
 
             {/* Section for main content */}
             <main className="body">
+
+                {/* Banner to announce projects below */}
+                <Box className='bannerBox'>
+                    <Typography className='banner' variant='h2'>
+                        Projects
+                    </Typography>
+                </Box>
 
                 {/* Section for external projects to be displayed using cards from MUI */}
                 <Grid container spacing={3} sx={{ m: 3, display: 'flex', justifyContent: 'center', textAlign: 'center', p: 3 }}>
