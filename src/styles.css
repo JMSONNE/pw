@@ -79,3 +79,10 @@
   height: 20vh !important;
   width: 20vh !important;
 }
+.bannerBox {
+  background-color: rgb(30, 30, 30);
+  height: 9vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
