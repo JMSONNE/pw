@@ -97,4 +97,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  box-shadow: 0px 0px 6px 0.3px rgba(255, 255, 255, 0.281) !important;
+}
+.skillCard:hover {
+  box-shadow: 0px 0px 8px 1.5px rgba(255, 255, 255, 0.281) !important;
 }
