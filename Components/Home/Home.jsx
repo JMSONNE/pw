@@ -48,7 +48,7 @@ const Home = () => {
                 </Box>
 
                 {/* Section for external projects to be displayed using cards from MUI */}
-                <Grid container spacing={3} sx={{ m: 3, display: 'flex', justifyContent: 'center', textAlign: 'center', p: 3 }}>
+                <Grid container spacing={3} sx={{ display: 'flex', justifyContent: 'center', textAlign: 'center' }}>
 
                     {/* Card for JavaScripts Cofee arranged using the Grid component from MUI*/}
 
