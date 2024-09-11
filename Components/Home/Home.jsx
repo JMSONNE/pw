@@ -48,7 +48,7 @@ const Home = () => {
                 </Box>
 
                 {/* Section for external projects to be displayed using cards from MUI */}
-                <Grid container spacing={3} sx={{ display: 'flex', justifyContent: 'center', textAlign: 'center' }}>
+                <Grid container spacing={3} sx={{ display: 'flex', justifyContent: 'center', textAlign: 'center', mb: '12vh' }}>
 
                     {/* Card for JavaScripts Cofee arranged using the Grid component from MUI*/}
 
@@ -72,6 +72,108 @@ const Home = () => {
                             <CardActions>
                                 <Button size="small" onClick={handleJavaScriptsLink}>Visit</Button>
                             </CardActions>
+                        </Card>
+                    </Grid>
+                </Grid>
+
+                {/* Banner to announce skills/technologies */}
+                <Box className='bannerBox'>
+                    <Typography className='banner' variant='h2'>
+                        Skills / Technologies
+                    </Typography>
+                </Box>
+
+                {/* Section outlining my development skills and technologies I'm proficient in */}
+                <Grid container spacing={3} sx={{ display: 'flex', justifyContent: 'center', textAlign: 'center' }}>
+                    {/* Javascript */}
+                    <Grid item xs='auto' >
+                        <Card className='skillCard' sx={{ maxWidth: 400, minWidth: 300, maxHeight: 370 }}>
+                            <CardContent>
+                                <Typography gutterBottom variant="h5" component="div">
+                                    JavaScript
+                                </Typography>
+                                <Typography variant="body2" color="text.secondary">
+
+                                </Typography>
+                            </CardContent>
+                        </Card>
+                    </Grid>
+                    {/* HTML */}
+                    <Grid item xs='auto' >
+                        <Card className='skillCard' sx={{ maxWidth: 400, minWidth: 300, maxHeight: 370 }}>
+                            <CardContent>
+                                <Typography gutterBottom variant="h5" component="div">
+                                    HTML
+                                </Typography>
+                                <Typography variant="body2" color="text.secondary">
+
+                                </Typography>
+                            </CardContent>
+                        </Card>
+                    </Grid>
+                    {/* CSS */}
+                    <Grid item xs='auto' >
+                        <Card className='skillCard' sx={{ maxWidth: 400, minWidth: 300, maxHeight: 370 }}>
+                            <CardContent>
+                                <Typography gutterBottom variant="h5" component="div">
+                                    CSS
+                                </Typography>
+                                <Typography variant="body2" color="text.secondary">
+
+                                </Typography>
+                            </CardContent>
+                        </Card>
+                    </Grid>
+                    {/* Node.js */}
+                    <Grid item xs='auto' >
+                        <Card className='skillCard' sx={{ maxWidth: 400, minWidth: 300, maxHeight: 370 }}>
+                            <CardContent>
+                                <Typography gutterBottom variant="h5" component="div">
+                                    Node.js
+                                </Typography>
+                                <Typography variant="body2" color="text.secondary">
+
+                                </Typography>
+                            </CardContent>
+                        </Card>
+                    </Grid>
+                    {/* Express.js */}
+                    <Grid item xs='auto' >
+                        <Card className='skillCard' sx={{ maxWidth: 400, minWidth: 300, maxHeight: 370 }}>
+                            <CardContent>
+                                <Typography gutterBottom variant="h5" component="div">
+                                    Express.js
+                                </Typography>
+                                <Typography variant="body2" color="text.secondary">
+
+                                </Typography>
+                            </CardContent>
+                        </Card>
+                    </Grid>
+                    {/* PostgreSQL */}
+                    <Grid item xs='auto' >
+                        <Card className='skillCard' sx={{ maxWidth: 400, minWidth: 300, maxHeight: 370 }}>
+                            <CardContent>
+                                <Typography gutterBottom variant="h5" component="div">
+                                    PostgreSQL
+                                </Typography>
+                                <Typography variant="body2" color="text.secondary">
+
+                                </Typography>
+                            </CardContent>
+                        </Card>
+                    </Grid>
+                    {/* React */}
+                    <Grid item xs='auto' >
+                        <Card className='skillCard' sx={{ maxWidth: 400, minWidth: 300, maxHeight: 370 }}>
+                            <CardContent>
+                                <Typography gutterBottom variant="h5" component="div">
+                                    React
+                                </Typography>
+                                <Typography variant="body2" color="text.secondary">
+
+                                </Typography>
+                            </CardContent>
                         </Card>
                     </Grid>
                 </Grid>
