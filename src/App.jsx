@@ -19,7 +19,7 @@ function App() {
       <ThemeProvider theme={darkTheme}>
         <CssBaseline />
 
-        <Navbar />
+
         <Router />
 
       </ThemeProvider>
