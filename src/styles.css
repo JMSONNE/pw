@@ -44,6 +44,13 @@
   .card {
     position: relative;
   }
+  .profile-pic {
+    animation-name: slidein;
+    animation-duration: 1s;
+    height: 20vh !important;
+    width: 20vh !important;
+    margin: 1vh;
+  }
 }
 
 @media (max-width: 499px) {
@@ -62,6 +69,12 @@
   .quote {
     display: none;
   }
+  .profile-pic {
+    animation-name: slidein;
+    animation-duration: 1s;
+    height: 25vh !important;
+    width: 25vh !important;
+  }
 }
 
 .header::before {
@@ -75,12 +88,6 @@
   right: 0px;
   bottom: 0px;
   left: 0px;
-}
-.profile-pic {
-  animation-name: slidein;
-  animation-duration: 1s;
-  height: 20vh !important;
-  width: 20vh !important;
 }
 .bannerBox {
   background-color: rgb(30, 30, 30);
