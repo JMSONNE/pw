@@ -93,3 +93,8 @@
 .card:hover {
   box-shadow: 6px 5px 6px 4px rgba(255, 255, 255, 0.281) !important;
 }
+.skillCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
