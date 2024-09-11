@@ -59,6 +59,9 @@
     background-color: white;
     margin-right: 0;
   }
+  .quote {
+    display: none;
+  }
 }
 
 .header::before {
@@ -86,6 +89,9 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 2vh;
+}
+.banner {
+  font-size: 3vh !important;
 }
 .card {
   box-shadow: 2px 3px 6px 0px rgba(255, 255, 255, 0.281) !important;
