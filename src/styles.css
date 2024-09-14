@@ -102,10 +102,10 @@
   font-size: 3vh !important;
 }
 .card {
-  box-shadow: 2px 3px 6px 0px rgba(255, 255, 255, 0.281) !important;
+  box-shadow: 0px 0px 13px 0px rgba(255, 255, 255, 0.281) !important;
 }
 .card:hover {
-  box-shadow: 6px 5px 6px 4px rgba(255, 255, 255, 0.281) !important;
+  box-shadow: 0px 0px 10px 6px rgba(255, 255, 255, 0.281) !important;
 }
 .skillCard {
   display: flex;
