@@ -116,3 +116,15 @@
 .skillCard:hover {
   box-shadow: 0px 0px 8px 1.5px rgba(255, 255, 255, 0.281) !important;
 }
+.footer {
+  width: 100%;
+  height: 7vh;
+  background-color: #2e2e2e;
+  margin-top: 3vh;
+  padding: 0.5rem;
+  display: flex;
+  align-items: flex-end;
+}
+.footerText {
+  color: #5e5e5e;
+}
