@@ -54,7 +54,8 @@ const Home = () => {
                     <Grid item xs={6} sx={{ display: 'flex', justifyContent: 'center', textAlign: 'center' }}>
                         <Card className='card' sx={{ maxWidth: 400, minWidth: 300, maxHeight: 370 }}>
                             <CardMedia
-                                sx={{ height: 140 }}
+                                component='img'
+                                sx={{ height: 140, objectFit: 'contain', objectPosition: 'center' }}
                                 image={logo}
                                 title="JavaScripts Coffee"
                             />
