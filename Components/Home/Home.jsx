@@ -15,7 +15,7 @@ import { Box } from '@mui/material';
 const Home = () => {
     // Links to external projects
     const javascriptsLink = 'https://javascripts-coffee.vercel.app';
-    const inAndOutLink = alert("Site still being built.")
+    const inAndOutLink = ``
 
     // Function to handle buttons to external projects
     const handleLinks = (link) => {
@@ -97,7 +97,7 @@ const Home = () => {
                                 </Typography>
                             </CardContent>
                             <CardActions>
-                                <Button size="small" onClick={() => handleLinks(inAndOutLink)}>Visit</Button>
+                                <Button size="small" onClick={console.log("site under construction")}>Visit</Button>
                             </CardActions>
                         </Card>
                     </Grid>
