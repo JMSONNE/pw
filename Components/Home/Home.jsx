@@ -15,7 +15,7 @@ import { Box } from '@mui/material';
 const Home = () => {
     // Links to external projects
     const javascriptsLink = 'https://javascripts-coffee.vercel.app';
-    const inAndOutLink = ''
+    const inAndOutLink = alert("Site still being built.")
 
     // Function to handle buttons to external projects
     const handleLinks = (link) => {
