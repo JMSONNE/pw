@@ -2,7 +2,8 @@ import React from 'react';
 import Avatar from '@mui/material/Avatar';
 import '../../src/styles.css'
 import profilePic from '../../assets/profile_pic.png'
-import logo from '../../assets/JSCC.png'
+import JSCClogo from '../../assets/JSCC.png'
+import IOClogo from '../../assets/logo.jpg'
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
@@ -13,11 +14,15 @@ import Grid from '@mui/material/Grid';
 import { Box } from '@mui/material';
 
 const Home = () => {
+    // Links to external projects
+    const javascriptsLink = 'https://javascripts-coffee.vercel.app';
+    const inAndOutLink = ``
 
     // Function to handle buttons to external projects
-    const handleJavaScriptsLink = () => {
-        window.open('https://javascripts-coffee.vercel.app', '_blank');
+    const handleLinks = (link) => {
+        window.open(`${link}`, '_blank');
     };
+
 
     return (
         <>
@@ -56,7 +61,7 @@ const Home = () => {
                             <CardMedia
                                 component='img'
                                 sx={{ height: 140, objectFit: 'contain', objectPosition: 'center' }}
-                                image={logo}
+                                image={JSCClogo}
                                 title="JavaScripts Coffee"
                             />
                             <CardContent>
@@ -70,7 +75,30 @@ const Home = () => {
                                 </Typography>
                             </CardContent>
                             <CardActions>
-                                <Button size="small" onClick={handleJavaScriptsLink}>Visit</Button>
+                                <Button size="small" onClick={() => handleLinks(javascriptsLink)}>Visit</Button>
+                            </CardActions>
+                        </Card>
+                    </Grid>
+                    {/* Card for In & Out Cuts page*/}
+
+                    <Grid item xs={6} sx={{ display: 'flex', justifyContent: 'center', textAlign: 'center' }}>
+                        <Card className='card' sx={{ maxWidth: 400, minWidth: 300, maxHeight: 370 }}>
+                            <CardMedia
+                                component='img'
+                                sx={{ height: 140, objectFit: 'contain', objectPosition: 'center' }}
+                                image={IOClogo}
+                                title="In & Out Cuts"
+                            />
+                            <CardContent>
+                                <Typography gutterBottom variant="h5" component="div">
+                                    In & Out Cuts "Under construction"
+                                </Typography>
+                                <Typography variant="body2" color="text.secondary">
+                                    This is a landing page for a local hair salon in the city I live in. Built for them for free.
+                                </Typography>
+                            </CardContent>
+                            <CardActions>
+                                <Button size="small" onClick={console.log("site under construction")}>Visit</Button>
                             </CardActions>
                         </Card>
                     </Grid>
