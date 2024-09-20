@@ -56,11 +56,11 @@ const Home = () => {
 
                     {/* Card for JavaScripts Cofee arranged using the Grid component from MUI*/}
 
-                    <Grid item xs='auto' sx={{ display: 'flex', justifyContent: 'center', textAlign: 'center' }}>
-                        <Card className='card' sx={{ maxWidth: 400, minWidth: 300, maxHeight: 370 }}>
+                    <Grid item xs={12} md={6} lg={6} xl={4} sx={{ display: 'flex', justifyContent: 'center', textAlign: 'center' }}>
+                        <Card className='card'>
                             <CardMedia
                                 component='img'
-                                sx={{ height: 140, objectFit: 'contain', objectPosition: 'center' }}
+                                sx={{ height: '10vh', objectFit: 'contain', objectPosition: 'center' }}
                                 image={JSCClogo}
                                 title="JavaScripts Coffee"
                             />
@@ -81,11 +81,11 @@ const Home = () => {
                     </Grid>
                     {/* Card for In & Out Cuts page*/}
 
-                    <Grid item xs='auto' sx={{ display: 'flex', justifyContent: 'center', textAlign: 'center' }}>
-                        <Card className='card' sx={{ maxWidth: 400, minWidth: 300, maxHeight: 370 }}>
+                    <Grid item xs={12} md={6} lg={6} xl={4} sx={{ display: 'flex', justifyContent: 'center', textAlign: 'center' }}>
+                        <Card className='card'>
                             <CardMedia
                                 component='img'
-                                sx={{ height: 140, objectFit: 'contain', objectPosition: 'center' }}
+                                sx={{ height: '10vh', objectFit: 'contain', objectPosition: 'center' }}
                                 image={IOClogo}
                                 title="In & Out Cuts"
                             />
