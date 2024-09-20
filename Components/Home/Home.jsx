@@ -13,11 +13,15 @@ import Grid from '@mui/material/Grid';
 import { Box } from '@mui/material';
 
 const Home = () => {
+    // Links to external projects
+    const javascriptsLink = 'https://javascripts-coffee.vercel.app';
+    const inAndOutLink = ''
 
     // Function to handle buttons to external projects
-    const handleJavaScriptsLink = () => {
-        window.open('https://javascripts-coffee.vercel.app', '_blank');
+    const handleLinks = (link) => {
+        window.open(`${link}`, '_blank');
     };
+
 
     return (
         <>
@@ -70,7 +74,30 @@ const Home = () => {
                                 </Typography>
                             </CardContent>
                             <CardActions>
-                                <Button size="small" onClick={handleJavaScriptsLink}>Visit</Button>
+                                <Button size="small" onClick={() => handleLinks(javascriptsLink)}>Visit</Button>
+                            </CardActions>
+                        </Card>
+                    </Grid>
+                    {/* Card for In & Out Cuts page*/}
+
+                    <Grid item xs={6} sx={{ display: 'flex', justifyContent: 'center', textAlign: 'center' }}>
+                        <Card className='card' sx={{ maxWidth: 400, minWidth: 300, maxHeight: 370 }}>
+                            <CardMedia
+                                component='img'
+                                sx={{ height: 140, objectFit: 'contain', objectPosition: 'center' }}
+                                image={logo}
+                                title="In & Out Cuts"
+                            />
+                            <CardContent>
+                                <Typography gutterBottom variant="h5" component="div">
+                                    In & Out Cuts
+                                </Typography>
+                                <Typography variant="body2" color="text.secondary">
+                                    This is a landing page for a local hair salon in the city I live in. Built for them for free.
+                                </Typography>
+                            </CardContent>
+                            <CardActions>
+                                <Button size="small" onClick={() => handleLinks(inAndOutLink)}>Visit</Button>
                             </CardActions>
                         </Card>
                     </Grid>
