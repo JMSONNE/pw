@@ -56,7 +56,7 @@ const Home = () => {
 
                     {/* Card for JavaScripts Cofee arranged using the Grid component from MUI*/}
 
-                    <Grid item xs={6} sx={{ display: 'flex', justifyContent: 'center', textAlign: 'center' }}>
+                    <Grid item xs='auto' sx={{ display: 'flex', justifyContent: 'center', textAlign: 'center' }}>
                         <Card className='card' sx={{ maxWidth: 400, minWidth: 300, maxHeight: 370 }}>
                             <CardMedia
                                 component='img'
@@ -79,10 +79,9 @@ const Home = () => {
                             </CardActions>
                         </Card>
                     </Grid>
-
                     {/* Card for In & Out Cuts page*/}
 
-                    <Grid item xs={6} sx={{ display: 'flex', justifyContent: 'center', textAlign: 'center' }}>
+                    <Grid item xs='auto' sx={{ display: 'flex', justifyContent: 'center', textAlign: 'center' }}>
                         <Card className='card' sx={{ maxWidth: 400, minWidth: 300, maxHeight: 370 }}>
                             <CardMedia
                                 component='img'
@@ -99,7 +98,7 @@ const Home = () => {
                                 </Typography>
                             </CardContent>
                             <CardActions>
-                                <Button size="small" onClick={() => alert("Site under construction, try again later!")}>Visit</Button>
+                                <Button size="small" onClick={console.log("site under construction")}>Visit</Button>
                             </CardActions>
                         </Card>
                     </Grid>
