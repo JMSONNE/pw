@@ -8,11 +8,6 @@ export const Footer = () => {
             <footer className='footer'>
                 <Grid container spacing={3} sx={{ display: 'flex', justifyContent: 'center' }}>
                     <Grid item xs='auto'>
-                        <Typography variant='p' className='footerText'>
-                            Mobile - 817-456-9548
-                        </Typography>
-                    </Grid>
-                    <Grid item xs='auto'>
                         <Typography variant='p' className='footerText' component='a' href='https://www.linkedin.com/in/jordynsonne' target="_blank">
                             linkedin.com/in/jordynsonne
                         </Typography>
