@@ -2,7 +2,8 @@ import React from 'react';
 import Avatar from '@mui/material/Avatar';
 import '../../src/styles.css'
 import profilePic from '../../assets/profile_pic.png'
-import logo from '../../assets/JSCC.png'
+import JSCClogo from '../../assets/JSCC.png'
+import IOClogo from '../../assets/logo.jpg'
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
@@ -60,7 +61,7 @@ const Home = () => {
                             <CardMedia
                                 component='img'
                                 sx={{ height: 140, objectFit: 'contain', objectPosition: 'center' }}
-                                image={logo}
+                                image={JSCClogo}
                                 title="JavaScripts Coffee"
                             />
                             <CardContent>
@@ -85,7 +86,7 @@ const Home = () => {
                             <CardMedia
                                 component='img'
                                 sx={{ height: 140, objectFit: 'contain', objectPosition: 'center' }}
-                                image={logo}
+                                image={IOClogo}
                                 title="In & Out Cuts"
                             />
                             <CardContent>
