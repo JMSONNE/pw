@@ -79,6 +79,7 @@ const Home = () => {
                             </CardActions>
                         </Card>
                     </Grid>
+
                     {/* Card for In & Out Cuts page*/}
 
                     <Grid item xs={6} sx={{ display: 'flex', justifyContent: 'center', textAlign: 'center' }}>
@@ -98,7 +99,7 @@ const Home = () => {
                                 </Typography>
                             </CardContent>
                             <CardActions>
-                                <Button size="small" onClick={console.log("site under construction")}>Visit</Button>
+                                <Button size="small" onClick={() => alert("Site under construction, try again later!")}>Visit</Button>
                             </CardActions>
                         </Card>
                     </Grid>
