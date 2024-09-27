@@ -16,7 +16,7 @@ import { Box } from '@mui/material';
 const Home = () => {
     // Links to external projects
     const javascriptsLink = 'https://javascripts-coffee.vercel.app';
-    const inAndOutLink = ``
+    const inAndOutLink = `https://in-out-gules.vercel.app`;
 
     // Function to handle buttons to external projects
     const handleLinks = (link) => {
@@ -98,7 +98,7 @@ const Home = () => {
                                 </Typography>
                             </CardContent>
                             <CardActions>
-                                <Button size="small" onClick={console.log("site under construction")}>Visit</Button>
+                                <Button size="small" onClick={() => handleLinks(inAndOutLink)}>Visit</Button>
                             </CardActions>
                         </Card>
                     </Grid>
