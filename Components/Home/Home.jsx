@@ -91,10 +91,10 @@ const Home = () => {
                             />
                             <CardContent>
                                 <Typography gutterBottom variant="h5" component="div">
-                                    In & Out Cuts "Under construction"
+                                    In & Out Cuts (Not Finished)
                                 </Typography>
                                 <Typography variant="body2" color="text.secondary">
-                                    This is a landing page for a local hair salon in the city I live in. Built for them for free.
+                                    This is a landing page for a local hair salon in the city I live in. Built for them for free. Still being worked on but is available to visit.
                                 </Typography>
                             </CardContent>
                             <CardActions>
