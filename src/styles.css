@@ -136,3 +136,18 @@
   color: #5e5e5e;
   font-size: 1.3vh;
 }
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+#email {
+  width: 50%;
+  margin-bottom: 1rem;
+}
+#message {
+  width: 50%;
+  height: 50%;
+  margin-bottom: 1rem;
+}
