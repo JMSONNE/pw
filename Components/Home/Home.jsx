@@ -16,7 +16,9 @@ import { Box } from '@mui/material';
 const Home = () => {
     // Links to external projects
     const javascriptsLink = 'https://javascripts-coffee.vercel.app';
+    const javascriptsRepoLink = `https://github.com/JMSONNE/capstone-client`;
     const inAndOutLink = `https://in-out-gules.vercel.app`;
+    const inAndOutRepoLink = `https://github.com/JMSONNE/In-Out`;
 
     // Function to handle buttons to external projects
     const handleLinks = (link) => {
@@ -58,24 +60,20 @@ const Home = () => {
 
                     <Grid item xs={12} md={6} lg={6} xl={4} sx={{ display: 'flex', justifyContent: 'center', textAlign: 'center' }}>
                         <Card className='card'>
-                            <CardMedia
-                                component='img'
-                                sx={{ height: '10vh', objectFit: 'contain', objectPosition: 'center' }}
-                                image={JSCClogo}
-                                title="JavaScripts Coffee"
-                            />
+
                             <CardContent>
                                 <Typography gutterBottom variant="h5" component="div">
                                     JavaScripts Coffee Co.
                                 </Typography>
-                                <Typography variant="body2" color="text.secondary">
+                                <Typography variant="body2" color="text.secondary" sx={{ marginTop: '3rem' }}>
                                     My capstone project from my coding bootcamp at Full Stack Academy! The client side is built with
                                     React and uses components from Material UI. The backend is built using Express.js and a PostgreSQL
                                     database.
                                 </Typography>
                             </CardContent>
-                            <CardActions>
-                                <Button size="small" onClick={() => handleLinks(javascriptsLink)}>Visit</Button>
+                            <CardActions sx={{ display: 'flex', justifyContent: 'space-between' }}>
+                                <Button size="small" onClick={() => handleLinks(javascriptsLink)}>Visit Site</Button>
+                                <Button size="small" onClick={() => handleLinks(javascriptsRepoLink)}>Visit Repository</Button>
                             </CardActions>
                         </Card>
                     </Grid>
@@ -83,22 +81,18 @@ const Home = () => {
 
                     <Grid item xs={12} md={6} lg={6} xl={4} sx={{ display: 'flex', justifyContent: 'center', textAlign: 'center' }}>
                         <Card className='card'>
-                            <CardMedia
-                                component='img'
-                                sx={{ height: '10vh', objectFit: 'contain', objectPosition: 'center' }}
-                                image={IOClogo}
-                                title="In & Out Cuts"
-                            />
+
                             <CardContent>
                                 <Typography gutterBottom variant="h5" component="div">
                                     In & Out Cuts (Not Finished)
                                 </Typography>
-                                <Typography variant="body2" color="text.secondary">
+                                <Typography variant="body2" color="text.secondary" sx={{ marginTop: '3rem' }}>
                                     This is a landing page for a local hair salon in the city I live in. Built for them for free. Still being worked on but is available to visit.
                                 </Typography>
                             </CardContent>
-                            <CardActions>
-                                <Button size="small" onClick={() => handleLinks(inAndOutLink)}>Visit</Button>
+                            <CardActions sx={{ display: 'flex', justifyContent: 'space-between' }}>
+                                <Button size="small" onClick={() => handleLinks(inAndOutLink)}>Visit Site</Button>
+                                <Button size="small" onClick={() => handleLinks(inAndOutRepoLink)}>Visit Repository</Button>
                             </CardActions>
                         </Card>
                     </Grid>
