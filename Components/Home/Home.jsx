@@ -12,6 +12,7 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Grid from '@mui/material/Grid';
 import { Box } from '@mui/material';
+import ContactForm from './ContactForm';
 
 const Home = () => {
     // Links to external projects
@@ -106,7 +107,7 @@ const Home = () => {
                 </Box>
 
                 {/* Section outlining my development skills and technologies I'm proficient in */}
-                <Grid container spacing={3} sx={{ display: 'flex', justifyContent: 'center', textAlign: 'center' }}>
+                <Grid container spacing={3} sx={{ display: 'flex', justifyContent: 'center', textAlign: 'center', marginBottom: '2rem' }}>
                     {/* Javascript */}
                     <Grid item xs='auto' >
                         <Card className='skillCard' sx={{ maxWidth: 400, minWidth: 300, maxHeight: 370 }}>
@@ -199,6 +200,18 @@ const Home = () => {
                         </Card>
                     </Grid>
                 </Grid>
+
+                {/* Banner to announce contact section */}
+                <Box className='bannerBox'>
+                    <Typography className='banner' variant='h2'>
+                        Want to get in touch?
+                    </Typography>
+
+                </Box>
+                {/* Contact section */}
+                <Box>
+                    <ContactForm />
+                </Box>
 
             </main >
         </>
