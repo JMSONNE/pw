@@ -143,11 +143,14 @@
   width: 50%;
 }
 #email {
-  width: 50%;
+  width: 100%;
+  max-width: 210px;
   margin-bottom: 1rem;
 }
 #message {
   width: 50%;
-  height: 50%;
+  height: 70%;
+  min-height: 2rem;
+  max-height: 5rem;
   margin-bottom: 1rem;
 }
