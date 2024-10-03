@@ -149,8 +149,9 @@
 }
 #message {
   width: 50%;
+  max-width: 380px;
   height: 70%;
-  min-height: 2rem;
-  max-height: 5rem;
+  min-height: 70px;
+  max-height: 90px;
   margin-bottom: 1rem;
 }
