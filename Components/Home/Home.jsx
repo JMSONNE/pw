@@ -201,15 +201,21 @@ const Home = () => {
                     </Grid>
                 </Grid>
 
+                {/* Banner for links to gitub and linked in
+                <Box className='bannerBox'>
+                    <Typography className='banner' variant='h2'>
+                        Links
+                    </Typography>
+                </Box> */}
+
                 {/* Banner to announce contact section */}
                 <Box className='bannerBox'>
                     <Typography className='banner' variant='h2'>
                         Want to get in touch?
                     </Typography>
-
                 </Box>
                 {/* Contact section */}
-                <Box>
+                <Box sx={{ marginBottom: '2rem', textAlign: 'center' }}>
                     <ContactForm />
                 </Box>
 
