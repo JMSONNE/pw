@@ -39,6 +39,26 @@ const Home = () => {
             {/* Section for main content */}
             <main className="body">
 
+                {/* About me banner */}
+                <Box className='bannerBox'>
+                    <Typography className='banner' variant='h2'>
+                        About me
+                    </Typography>
+                </Box>
+
+                {/* About me section */}
+                <Box sx={{ marginBottom: '3.5rem', textAlign: 'center', padding: '2rem' }}>
+                    <Typography variant='p'>
+                        Hi, I'm Jordyn, a passionate web developer who loves crafting intuitive and dynamic web applications.
+                        From creating user-friendly interfaces to ensuring seamless functionality,
+                        I thrive on solving challenges and bringing ideas to life through code.
+                        I'm always eager to learn and grow in my field, constantly exploring new tools,
+                        technologies, and frameworks to stay ahead in this fast-evolving industry.
+                        Whether it's refining my skills or diving into something entirely new,
+                        my curiosity and dedication to learning fuel my development journey.
+                    </Typography>
+                </Box>
+
                 {/* Banner to announce projects below */}
                 <Box className='bannerBox'>
                     <Typography className='banner' variant='h2'>
@@ -99,7 +119,7 @@ const Home = () => {
                 </Box>
 
                 {/* Section outlining my development skills and technologies I'm proficient in */}
-                <Grid container spacing={3} sx={{ display: 'flex', justifyContent: 'center', textAlign: 'center', marginBottom: '2rem' }}>
+                <Grid container spacing={3} sx={{ display: 'flex', justifyContent: 'center', textAlign: 'center', marginBottom: '3.5rem' }}>
                     {/* Javascript */}
                     <Grid item xs='auto' >
                         <Card className='skillCard' sx={{ maxWidth: 400, minWidth: 300, maxHeight: 370 }}>
@@ -118,7 +138,7 @@ const Home = () => {
                         <Card className='skillCard' sx={{ maxWidth: 400, minWidth: 300, maxHeight: 370 }}>
                             <CardContent>
                                 <Typography gutterBottom variant="h5" component="div">
-                                    HTML
+                                    HTML 5
                                 </Typography>
                                 <Typography variant="body2" color="text.secondary">
 
@@ -131,7 +151,7 @@ const Home = () => {
                         <Card className='skillCard' sx={{ maxWidth: 400, minWidth: 300, maxHeight: 370 }}>
                             <CardContent>
                                 <Typography gutterBottom variant="h5" component="div">
-                                    CSS
+                                    CSS 3
                                 </Typography>
                                 <Typography variant="body2" color="text.secondary">
 
@@ -191,6 +211,46 @@ const Home = () => {
                             </CardContent>
                         </Card>
                     </Grid>
+                    {/* Redux */}
+                    <Grid item xs='auto' >
+                        <Card className='skillCard' sx={{ maxWidth: 400, minWidth: 300, maxHeight: 370 }}>
+                            <CardContent>
+                                <Typography gutterBottom variant="h5" component="div">
+                                    Redux
+                                </Typography>
+                                <Typography variant="body2" color="text.secondary">
+
+                                </Typography>
+                            </CardContent>
+                        </Card>
+                    </Grid>
+                    {/* CI/CD */}
+                    <Grid item xs='auto' >
+                        <Card className='skillCard' sx={{ maxWidth: 400, minWidth: 300, maxHeight: 370 }}>
+                            <CardContent>
+                                <Typography gutterBottom variant="h5" component="div">
+                                    CI/CD
+                                </Typography>
+                                <Typography variant="body2" color="text.secondary">
+
+                                </Typography>
+                            </CardContent>
+                        </Card>
+                    </Grid>
+                    {/* Git */}
+                    <Grid item xs='auto' >
+                        <Card className='skillCard' sx={{ maxWidth: 400, minWidth: 300, maxHeight: 370 }}>
+                            <CardContent>
+                                <Typography gutterBottom variant="h5" component="div">
+                                    Git
+                                </Typography>
+                                <Typography variant="body2" color="text.secondary">
+
+                                </Typography>
+                            </CardContent>
+                        </Card>
+                    </Grid>
+
                 </Grid>
 
                 {/* Banner for links to gitub and linked in
@@ -206,6 +266,7 @@ const Home = () => {
                         Want to get in touch?
                     </Typography>
                 </Box>
+
                 {/* Contact section */}
                 <Box sx={{ marginBottom: '2rem', textAlign: 'center' }}>
                     <ContactForm />
