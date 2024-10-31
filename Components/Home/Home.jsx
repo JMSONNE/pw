@@ -229,7 +229,7 @@ const Home = () => {
                 <Grid container spacing={3} sx={{ display: 'flex', justifyContent: 'center', textAlign: 'center', marginBottom: '3.5rem' }}>
                     {/* Node.js */}
                     <Grid item xs='auto' >
-                        <Card className='skillCard' sx={{ maxWidth: 400, minWidth: 300, maxHeight: 370 }}>
+                        <Card className='skillCard' sx={{ maxWidth: 332, minWidth: 300, maxHeight: 125 }}>
                             <CardContent>
                                 <Typography gutterBottom variant="h5" component="div">
                                     Node.js
@@ -244,7 +244,7 @@ const Home = () => {
                     </Grid>
                     {/* Express.js */}
                     <Grid item xs='auto' >
-                        <Card className='skillCard' sx={{ maxWidth: 400, minWidth: 300, maxHeight: 370 }}>
+                        <Card className='skillCard' sx={{ maxWidth: 332, minWidth: 300, maxHeight: 125 }}>
                             <CardContent>
                                 <Typography gutterBottom variant="h5" component="div">
                                     Express.js
@@ -259,7 +259,7 @@ const Home = () => {
                     </Grid>
                     {/* PostgreSQL */}
                     <Grid item xs='auto' >
-                        <Card className='skillCard' sx={{ maxWidth: 400, minWidth: 300, maxHeight: 370 }}>
+                        <Card className='skillCard' sx={{ maxWidth: 332, minWidth: 300, maxHeight: 125 }}>
                             <CardContent>
                                 <Typography gutterBottom variant="h5" component="div">
                                     PostgreSQL
@@ -274,7 +274,7 @@ const Home = () => {
                     </Grid>
                     {/* Prisma */}
                     <Grid item xs='auto' >
-                        <Card className='skillCard' sx={{ maxWidth: 400, minWidth: 300, maxHeight: 370 }}>
+                        <Card className='skillCard' sx={{ maxWidth: 332, minWidth: 300, maxHeight: 125 }}>
                             <CardContent>
                                 <Typography gutterBottom variant="h5" component="div">
                                     Prisma
