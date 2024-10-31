@@ -237,7 +237,7 @@ const Home = () => {
                                 <CardMedia
                                     sx={{ width: '15%', transform: 'translateX(280%)' }}
                                     component='img'
-                                    image='/assets/nodelogo.svg'
+                                    image='/assets/Nodelogo.svg'
                                 />
                             </CardContent>
                         </Card>
