@@ -137,7 +137,7 @@ const Home = () => {
                                 <CardMedia
                                     sx={{ width: '15%', transform: 'translateX(280%)' }}
                                     component='img'
-                                    image='assets\javascriptlogo.svg'
+                                    image='\assets\javascriptlogo.svg'
                                 />
                             </CardContent>
                         </Card>
@@ -152,7 +152,7 @@ const Home = () => {
                                 <CardMedia
                                     sx={{ width: '15%', transform: 'translateX(280%)' }}
                                     component='img'
-                                    image='assets\htmllogo.svg'
+                                    image='\assets\htmllogo.svg'
                                 />
                             </CardContent>
                         </Card>
@@ -167,7 +167,7 @@ const Home = () => {
                                 <CardMedia
                                     sx={{ width: '9%', transform: 'translateX(500%)' }}
                                     component='img'
-                                    image='assets\csslogo.svg'
+                                    image='\assets\csslogo.svg'
                                 />
                             </CardContent>
                         </Card>
@@ -182,7 +182,7 @@ const Home = () => {
                                 <CardMedia
                                     sx={{ width: '15%', transform: 'translateX(280%)' }}
                                     component='img'
-                                    image='assets\sasslogo.svg'
+                                    image='\assets\sasslogo.svg'
                                 />
                             </CardContent>
                         </Card>
@@ -197,7 +197,7 @@ const Home = () => {
                                 <CardMedia
                                     sx={{ width: '15%', transform: 'translateX(280%)' }}
                                     component='img'
-                                    image='assets\reactlogo.svg'
+                                    image='\assets\reactlogo.svg'
                                 />
                             </CardContent>
                         </Card>
@@ -212,7 +212,7 @@ const Home = () => {
                                 <CardMedia
                                     sx={{ width: '25%', transform: 'translateX(150%)' }}
                                     component='img'
-                                    image='assets\Redux.png'
+                                    image='\assets\Redux.png'
                                 />
                             </CardContent>
                         </Card>
@@ -237,7 +237,7 @@ const Home = () => {
                                 <CardMedia
                                     sx={{ width: '15%', transform: 'translateX(280%)' }}
                                     component='img'
-                                    image='assets\nodelogo.svg'
+                                    image='\assets\nodelogo.svg'
                                 />
                             </CardContent>
                         </Card>
@@ -252,7 +252,7 @@ const Home = () => {
                                 <CardMedia
                                     sx={{ width: '30%', transform: 'translateX(120%)' }}
                                     component='img'
-                                    image='assets\Expressjs.png'
+                                    image='\assets\Expressjs.png'
                                 />
                             </CardContent>
                         </Card>
@@ -267,7 +267,7 @@ const Home = () => {
                                 <CardMedia
                                     sx={{ width: '15%', transform: 'translateX(280%)' }}
                                     component='img'
-                                    image='assets\postgresqllogo.svg'
+                                    image='\assets\postgresqllogo.svg'
                                 />
                             </CardContent>
                         </Card>
@@ -282,7 +282,7 @@ const Home = () => {
                                 <CardMedia
                                     sx={{ width: '30%', transform: 'translateX(120%)' }}
                                     component='img'
-                                    image='assets\prisma-2.svg'
+                                    image='\assets\prisma-2.svg'
                                 />
                             </CardContent>
                         </Card>
@@ -320,7 +320,7 @@ const Home = () => {
                                 <CardMedia
                                     sx={{ width: '30%', transform: 'translateX(120%)' }}
                                     component='img'
-                                    image='assets\gitlogo.svg'
+                                    image='\assets\gitlogo.svg'
                                 />
                             </CardContent>
                         </Card>
