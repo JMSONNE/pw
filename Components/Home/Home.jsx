@@ -317,9 +317,11 @@ const Home = () => {
                                 <Typography gutterBottom variant="h5" component="div">
                                     Git
                                 </Typography>
-                                <Typography variant="body2" color="text.secondary">
-
-                                </Typography>
+                                <CardMedia
+                                    sx={{ width: '30%', transform: 'translateX(120%)' }}
+                                    component='img'
+                                    image='assets\gitlogo.svg'
+                                />
                             </CardContent>
                         </Card>
                     </Grid>
