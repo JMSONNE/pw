@@ -234,9 +234,11 @@ const Home = () => {
                                 <Typography gutterBottom variant="h5" component="div">
                                     Node.js
                                 </Typography>
-                                <Typography variant="body2" color="text.secondary">
-
-                                </Typography>
+                                <CardMedia
+                                    sx={{ width: '15%', transform: 'translateX(280%)' }}
+                                    component='img'
+                                    image='assets\nodelogo.svg'
+                                />
                             </CardContent>
                         </Card>
                     </Grid>
@@ -247,9 +249,11 @@ const Home = () => {
                                 <Typography gutterBottom variant="h5" component="div">
                                     Express.js
                                 </Typography>
-                                <Typography variant="body2" color="text.secondary">
-
-                                </Typography>
+                                <CardMedia
+                                    sx={{ width: '30%', transform: 'translateX(120%)' }}
+                                    component='img'
+                                    image='assets\Expressjs.png'
+                                />
                             </CardContent>
                         </Card>
                     </Grid>
@@ -260,9 +264,11 @@ const Home = () => {
                                 <Typography gutterBottom variant="h5" component="div">
                                     PostgreSQL
                                 </Typography>
-                                <Typography variant="body2" color="text.secondary">
-
-                                </Typography>
+                                <CardMedia
+                                    sx={{ width: '15%', transform: 'translateX(280%)' }}
+                                    component='img'
+                                    image='assets\postgresqllogo.svg'
+                                />
                             </CardContent>
                         </Card>
                     </Grid>
@@ -273,9 +279,11 @@ const Home = () => {
                                 <Typography gutterBottom variant="h5" component="div">
                                     Prisma
                                 </Typography>
-                                <Typography variant="body2" color="text.secondary">
-
-                                </Typography>
+                                <CardMedia
+                                    sx={{ width: '30%', transform: 'translateX(120%)' }}
+                                    component='img'
+                                    image='assets\prisma-2.svg'
+                                />
                             </CardContent>
                         </Card>
                     </Grid>
