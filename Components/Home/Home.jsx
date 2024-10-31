@@ -2,7 +2,7 @@ import React from 'react';
 import Avatar from '@mui/material/Avatar';
 import '../../src/styles.css'
 import profilePic from '../../assets/profile_pic.png'
-import { Box, CardContent, CardActions, Card, Button, Typography, Grid } from '@mui/material';
+import { Box, CardContent, CardActions, Card, Button, Typography, Grid, CardMedia } from '@mui/material';
 import ContactForm from './ContactForm';
 
 const Home = () => {
@@ -114,7 +114,14 @@ const Home = () => {
                 {/* Banner to announce skills/technologies */}
                 <Box className='bannerBox'>
                     <Typography className='banner' variant='h2'>
-                        Skills / Technologies
+                        Technologies
+                    </Typography>
+                </Box>
+
+                {/* Banner for front end technologies */}
+                <Box className='skillBox'>
+                    <Typography className='skillText' variant='h5'>
+                        Front-End
                     </Typography>
                 </Box>
 
@@ -122,43 +129,104 @@ const Home = () => {
                 <Grid container spacing={3} sx={{ display: 'flex', justifyContent: 'center', textAlign: 'center', marginBottom: '3.5rem' }}>
                     {/* Javascript */}
                     <Grid item xs='auto' >
-                        <Card className='skillCard' sx={{ maxWidth: 400, minWidth: 300, maxHeight: 370 }}>
+                        <Card className='skillCard' sx={{ maxWidth: 400, minWidth: 300, maxHeight: 125 }}>
                             <CardContent>
                                 <Typography gutterBottom variant="h5" component="div">
                                     JavaScript
                                 </Typography>
-                                <Typography variant="body2" color="text.secondary">
-
-                                </Typography>
+                                <CardMedia
+                                    sx={{ width: '15%', transform: 'translateX(280%)' }}
+                                    component='img'
+                                    image='assets\javascriptlogo.svg'
+                                />
                             </CardContent>
                         </Card>
                     </Grid>
                     {/* HTML */}
                     <Grid item xs='auto' >
-                        <Card className='skillCard' sx={{ maxWidth: 400, minWidth: 300, maxHeight: 370 }}>
+                        <Card className='skillCard' sx={{ maxWidth: 400, minWidth: 300, maxHeight: 125 }}>
                             <CardContent>
                                 <Typography gutterBottom variant="h5" component="div">
                                     HTML 5
                                 </Typography>
-                                <Typography variant="body2" color="text.secondary">
-
-                                </Typography>
+                                <CardMedia
+                                    sx={{ width: '15%', transform: 'translateX(280%)' }}
+                                    component='img'
+                                    image='assets\htmllogo.svg'
+                                />
                             </CardContent>
                         </Card>
                     </Grid>
                     {/* CSS */}
                     <Grid item xs='auto' >
-                        <Card className='skillCard' sx={{ maxWidth: 400, minWidth: 300, maxHeight: 370 }}>
+                        <Card className='skillCard' sx={{ maxWidth: 332, minWidth: 300, maxHeight: 125 }}>
                             <CardContent>
                                 <Typography gutterBottom variant="h5" component="div">
                                     CSS 3
                                 </Typography>
-                                <Typography variant="body2" color="text.secondary">
-
-                                </Typography>
+                                <CardMedia
+                                    sx={{ width: '9%', transform: 'translateX(500%)' }}
+                                    component='img'
+                                    image='assets\csslogo.svg'
+                                />
                             </CardContent>
                         </Card>
                     </Grid>
+                    {/* Sass */}
+                    <Grid item xs='auto' >
+                        <Card className='skillCard' sx={{ maxWidth: 400, minWidth: 300, maxHeight: 125 }}>
+                            <CardContent>
+                                <Typography gutterBottom variant="h5" component="div">
+                                    SASS
+                                </Typography>
+                                <CardMedia
+                                    sx={{ width: '15%', transform: 'translateX(280%)' }}
+                                    component='img'
+                                    image='assets\sasslogo.svg'
+                                />
+                            </CardContent>
+                        </Card>
+                    </Grid>
+                    {/* React */}
+                    <Grid item xs='auto' >
+                        <Card className='skillCard' sx={{ maxWidth: 400, minWidth: 300, maxHeight: 125 }}>
+                            <CardContent>
+                                <Typography gutterBottom variant="h5" component="div">
+                                    React
+                                </Typography>
+                                <CardMedia
+                                    sx={{ width: '15%', transform: 'translateX(280%)' }}
+                                    component='img'
+                                    image='assets\reactlogo.svg'
+                                />
+                            </CardContent>
+                        </Card>
+                    </Grid>
+                    {/* Redux */}
+                    <Grid item xs='auto' >
+                        <Card className='skillCard' sx={{ maxWidth: 332, minWidth: 300, maxHeight: 125 }}>
+                            <CardContent>
+                                <Typography gutterBottom variant="h5" component="div">
+                                    Redux
+                                </Typography>
+                                <CardMedia
+                                    sx={{ width: '25%', transform: 'translateX(150%)' }}
+                                    component='img'
+                                    image='assets\Redux.png'
+                                />
+                            </CardContent>
+                        </Card>
+                    </Grid>
+                </Grid>
+
+                {/* Banner for back end technologies */}
+                <Box className='skillBox'>
+                    <Typography className='skillText' variant='h5'>
+                        Back-End
+                    </Typography>
+                </Box>
+
+                <Grid container spacing={3} sx={{ display: 'flex', justifyContent: 'center', textAlign: 'center', marginBottom: '3.5rem' }}>
                     {/* Node.js */}
                     <Grid item xs='auto' >
                         <Card className='skillCard' sx={{ maxWidth: 400, minWidth: 300, maxHeight: 370 }}>
@@ -198,12 +266,12 @@ const Home = () => {
                             </CardContent>
                         </Card>
                     </Grid>
-                    {/* React */}
+                    {/* Prisma */}
                     <Grid item xs='auto' >
                         <Card className='skillCard' sx={{ maxWidth: 400, minWidth: 300, maxHeight: 370 }}>
                             <CardContent>
                                 <Typography gutterBottom variant="h5" component="div">
-                                    React
+                                    Prisma
                                 </Typography>
                                 <Typography variant="body2" color="text.secondary">
 
@@ -211,19 +279,16 @@ const Home = () => {
                             </CardContent>
                         </Card>
                     </Grid>
-                    {/* Redux */}
-                    <Grid item xs='auto' >
-                        <Card className='skillCard' sx={{ maxWidth: 400, minWidth: 300, maxHeight: 370 }}>
-                            <CardContent>
-                                <Typography gutterBottom variant="h5" component="div">
-                                    Redux
-                                </Typography>
-                                <Typography variant="body2" color="text.secondary">
+                </Grid>
 
-                                </Typography>
-                            </CardContent>
-                        </Card>
-                    </Grid>
+                {/* Banner for misc. technologies */}
+                <Box className='skillBox'>
+                    <Typography className='skillText' variant='h5'>
+                        Miscellaneous
+                    </Typography>
+                </Box>
+
+                <Grid container spacing={3} sx={{ display: 'flex', justifyContent: 'center', textAlign: 'center', marginBottom: '3.5rem' }}>
                     {/* CI/CD */}
                     <Grid item xs='auto' >
                         <Card className='skillCard' sx={{ maxWidth: 400, minWidth: 300, maxHeight: 370 }}>
