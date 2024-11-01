@@ -66,7 +66,7 @@ const Home = () => {
 
                 </Box>
                 <div id='scroll-icon'>
-                    <img src="/public/assets/scrolldown.gif" alt="Scroll down" />
+                    <img src="/assets/scrolldown.gif" alt="Scroll down" />
                 </div>
 
 
