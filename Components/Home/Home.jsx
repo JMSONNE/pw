@@ -49,13 +49,12 @@ const Home = () => {
                 {/* About me section */}
                 <Box sx={{ marginBottom: '3.5rem', textAlign: 'center', padding: '2rem' }}>
                     <Typography variant='p'>
-                        Hi, I'm Jordyn, a passionate web developer who loves crafting intuitive and dynamic web applications.
-                        From creating user-friendly interfaces to ensuring seamless functionality,
-                        I thrive on solving challenges and bringing ideas to life through code.
-                        I'm always eager to learn and grow in my field, constantly exploring new tools,
-                        technologies, and frameworks to stay ahead in this fast-evolving industry.
-                        Whether it's refining my skills or diving into something entirely new,
-                        my curiosity and dedication to learning fuel my development journey.
+                        Hi, I'm Jordyn,
+                        a web developer passionate about building intuitive,
+                        dynamic web applications.
+                        I love solving challenges,
+                        constantly learning,
+                        and exploring new tools to bring ideas to life.
                     </Typography>
                 </Box>
 
