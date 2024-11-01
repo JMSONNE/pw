@@ -21,23 +21,28 @@ const Home = () => {
 
     return (
         <>
-            <div>
+
+            {/* Landing section */}
+            <section className="landing-section">
+
+
 
                 {/* Main banner with quote */}
-
-                <header className='header'>
-
-                    <Avatar
-                        className='profile-pic'
-                        alt="Jordyn Sonne"
-                        src={profilePic} />
-                    <h1 className="quote">"Machines take me by surprise with great frequency." -Alan Turing</h1>
-                </header>
-            </div>
+                <div>
 
 
-            {/* Section for main content */}
-            <main className="body">
+                    <header className='header'>
+
+                        <Avatar
+                            className='profile-pic'
+                            alt="Jordyn Sonne"
+                            src={profilePic} />
+                        <h1 className="quote">"Machines take me by surprise with great frequency." -Alan Turing</h1>
+                    </header>
+                </div>
+
+
+
 
                 {/* About me banner */}
                 <Box className='bannerBox'>
@@ -47,8 +52,8 @@ const Home = () => {
                 </Box>
 
                 {/* About me section */}
-                <Box sx={{ marginBottom: '3.5rem', textAlign: 'center', padding: '2rem' }}>
-                    <Typography variant='p'>
+                <Box className='about-me-box'>
+                    <Typography className='about-me-text'>
                         Hi, I'm Jordyn,
                         a web developer passionate about building intuitive,
                         dynamic web applications.
@@ -57,7 +62,11 @@ const Home = () => {
                         and exploring new tools to bring ideas to life.
                     </Typography>
                 </Box>
+            </section>
 
+
+            {/* Rest of the site */}
+            <section>
                 {/* Banner to announce projects below */}
                 <Box className='bannerBox'>
                     <Typography className='banner' variant='h2'>
@@ -346,7 +355,7 @@ const Home = () => {
                     <ContactForm />
                 </Box>
 
-            </main >
+            </section >
         </>
     );
 }
