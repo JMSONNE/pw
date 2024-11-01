@@ -52,10 +52,11 @@ const Home = () => {
                 </Box>
 
                 {/* About me section */}
-                <Box className='about-me-box'>
-                    <Typography className='about-me-text'>
-                        Hi, I'm Jordyn,
-                        a web developer passionate about building intuitive,
+
+                <Box sx={{ marginBottom: '3.5rem', textAlign: 'center', padding: '2rem' }}>
+                    <Typography variant='p'>
+                        Hi, I'm Jordyn.
+                        A web developer passionate about building intuitive,
                         dynamic web applications.
                         I love solving challenges,
                         constantly learning,
