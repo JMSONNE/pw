@@ -180,15 +180,22 @@
   justify-content: center;
 }
 .about-me-text {
-  animation: blink 20s infinite;
+  animation: blink 15s infinite;
   border-bottom: 0.1em solid white;
   padding: 1rem;
   width: 80%;
+}
+#scroll-icon {
+  display: none;
 }
 
 @media (min-width: 1020px) {
   .about-me-text {
     font-size: 2rem !important;
+  }
+  #scroll-icon {
+    display: flex;
+    justify-content: center;
   }
 }
 

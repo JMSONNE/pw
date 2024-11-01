@@ -61,7 +61,15 @@ const Home = () => {
                         constantly learning,
                         and exploring new tools to bring ideas to life.
                     </Typography>
+
+
                 </Box>
+                <div id='scroll-icon'>
+                    <img src="/public/assets/scrolldown.gif" alt="Scroll down" />
+                </div>
+
+
+
             </section>
 
 
