@@ -6,7 +6,7 @@ Just a place to organize all my deployed projects and give information about my 
 
 https://pw-gray-beta.vercel.app/
 
-# TECHNOLOGY USED
+### TECHNOLOGY USED
 
 - React
 - Javascript
