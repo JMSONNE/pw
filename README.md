@@ -8,6 +8,7 @@ https://pw-gray-beta.vercel.app/
 
 ### TECHNOLOGY USED
 
+- Vite
 - React
 - Javascript
 - HTML
