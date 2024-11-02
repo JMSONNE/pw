@@ -8,6 +8,8 @@ https://pw-gray-beta.vercel.app/
 
 ### TECHNOLOGY USED
 
+#### Frameworks
+
 - Vite
 - React
 - Javascript
