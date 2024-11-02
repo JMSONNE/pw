@@ -12,6 +12,9 @@ https://pw-gray-beta.vercel.app/
 
 - Vite
 - React
+
+#### General technologies
+
 - Javascript
 - HTML
 - CSS
