@@ -23,6 +23,4 @@ https://pw-gray-beta.vercel.app/
 - HTML 5
 - CSS 3
 
-#
-
-Deployed using vercel
+#### Hosted on Vercel
