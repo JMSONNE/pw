@@ -1,6 +1,8 @@
 # My personal website
 
-Just a place to organize all my deployed projects and give information about my professional training and accomplishments.
+A place to organize all my deployed projects and give information about my professional training and accomplishments, as well as to provide a place for potential employers to get into contact with me.
+
+# THANK YOU FOR VISITING!!
 
 ## LINK TO DEPLOYED VERSION
 
