@@ -20,5 +20,9 @@ https://pw-gray-beta.vercel.app/
 #### General technologies
 
 - Javascript
-- HTML
-- CSS
+- HTML 5
+- CSS 3
+
+#
+
+Deployed using vercel
