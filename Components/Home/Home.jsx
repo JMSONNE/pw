@@ -114,10 +114,10 @@ const Home = () => {
 
                             <CardContent>
                                 <Typography gutterBottom variant="h5" component="div">
-                                    In & Out Cuts (Not Finished)
+                                    In & Out Cuts
                                 </Typography>
                                 <Typography variant="body2" color="text.secondary" sx={{ marginTop: '3rem' }}>
-                                    This is a landing page for a local hair salon in the city I live in. Still being worked on but is available to visit.
+                                    This is a landing page for a local hair salon in the city I live in.
                                 </Typography>
                             </CardContent>
                             <CardActions sx={{ display: 'flex', justifyContent: 'space-between' }}>
