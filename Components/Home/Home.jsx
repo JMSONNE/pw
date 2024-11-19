@@ -88,7 +88,7 @@ const Home = () => {
 
                     {/* Card for JavaScripts Cofee arranged using the Grid component from MUI*/}
 
-                    <Grid item xs={12} md={6} lg={6} xl={4} sx={{ display: 'flex', justifyContent: 'center', textAlign: 'center' }}>
+                    {/* <Grid item xs={12} md={6} lg={6} xl={4} sx={{ display: 'flex', justifyContent: 'center', textAlign: 'center' }}>
                         <Card className='card'>
 
                             <CardContent>
@@ -106,7 +106,8 @@ const Home = () => {
                                 <Button size="small" onClick={() => handleLinks(javascriptsRepoLink)}>Visit Repository</Button>
                             </CardActions>
                         </Card>
-                    </Grid>
+                    </Grid> */}
+
                     {/* Card for In & Out Cuts page*/}
 
                     <Grid item xs={12} md={6} lg={6} xl={4} sx={{ display: 'flex', justifyContent: 'center', textAlign: 'center' }}>
