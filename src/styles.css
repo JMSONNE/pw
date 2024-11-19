@@ -180,11 +180,6 @@
     justify-content: center;
   }
 }
-@media (max-width: 1020px) or (max-height: 1000px) {
-  #scroll-icon {
-    display: none;
-  }
-}
 
 @media (max-width: 1020px) or (max-height: 1000px) {
   #scroll-icon {

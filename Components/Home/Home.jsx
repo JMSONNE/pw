@@ -32,8 +32,6 @@ const Home = () => {
 
 
                     <header className='header'>
-
-
                         <h1 className="quote">"Machines take me by surprise with great frequency." -Alan Turing</h1>
                     </header>
                 </div>
