@@ -185,8 +185,10 @@
   padding: 1rem;
   width: 80%;
 }
+
 #scroll-icon {
-  display: none;
+  display: flex;
+  justify-content: center;
 }
 
 @media (min-width: 1020px) {
@@ -196,6 +198,12 @@
   #scroll-icon {
     display: flex;
     justify-content: center;
+  }
+}
+
+@media (max-width: 1020px) or (max-height: 1000px) {
+  #scroll-icon {
+    display: none;
   }
 }
 
