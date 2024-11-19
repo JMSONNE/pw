@@ -33,10 +33,7 @@ const Home = () => {
 
                     <header className='header'>
 
-                        <Avatar
-                            className='profile-pic'
-                            alt="Jordyn Sonne"
-                            src={profilePic} />
+
                         <h1 className="quote">"Machines take me by surprise with great frequency." -Alan Turing</h1>
                     </header>
                 </div>
@@ -88,7 +85,7 @@ const Home = () => {
 
                     {/* Card for JavaScripts Cofee arranged using the Grid component from MUI*/}
 
-                    <Grid item xs={12} md={6} lg={6} xl={4} sx={{ display: 'flex', justifyContent: 'center', textAlign: 'center' }}>
+                    {/* <Grid item xs={12} md={6} lg={6} xl={4} sx={{ display: 'flex', justifyContent: 'center', textAlign: 'center' }}>
                         <Card className='card'>
 
                             <CardContent>
@@ -106,7 +103,8 @@ const Home = () => {
                                 <Button size="small" onClick={() => handleLinks(javascriptsRepoLink)}>Visit Repository</Button>
                             </CardActions>
                         </Card>
-                    </Grid>
+                    </Grid> */}
+
                     {/* Card for In & Out Cuts page*/}
 
                     <Grid item xs={12} md={6} lg={6} xl={4} sx={{ display: 'flex', justifyContent: 'center', textAlign: 'center' }}>
@@ -114,10 +112,10 @@ const Home = () => {
 
                             <CardContent>
                                 <Typography gutterBottom variant="h5" component="div">
-                                    In & Out Cuts (Not Finished)
+                                    In & Out Cuts
                                 </Typography>
                                 <Typography variant="body2" color="text.secondary" sx={{ marginTop: '3rem' }}>
-                                    This is a landing page for a local hair salon in the city I live in. Still being worked on but is available to visit.
+                                    This is a landing page for a local hair salon in the city I live in.
                                 </Typography>
                             </CardContent>
                             <CardActions sx={{ display: 'flex', justifyContent: 'space-between' }}>
