@@ -30,43 +30,30 @@
       "Lucida Sans", Arial, sans-serif;
     size: 20%;
   }
-  .header {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 23rem;
-    border-bottom: 2px solid black;
-    background-color: rgb(34, 34, 34);
-    margin-left: 0;
-    margin-right: 0;
-  }
 }
 
-@media (max-width: 499px) {
-  .header {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    width: 100%;
-    height: 23rem;
-    border-bottom: 2px solid black;
-    margin-left: 0;
-    background-color: white;
-    margin-right: 0;
-  }
+@media (max-width: 420px) {
   .quote {
+    font-size: x-small;
+  }
+  .quote-box {
     display: none;
   }
-  .profile-pic {
-    animation-name: slidein;
-    animation-duration: 1s;
-    height: 25vh !important;
-    width: 25vh !important;
-  }
 }
-
+.header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 23rem;
+  border-bottom: 2px solid black;
+  background-image: url("https://xmple.com/wallpaper/graph-paper-black-green-grid-3840x2160-c2-000000-8fbc8f-l2-14-392-a-0-f-20.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 0;
+  margin-right: 0;
+}
 .bannerBox {
   width: 100%;
   height: 8vh;
@@ -76,7 +63,17 @@
   justify-content: center;
   align-items: center;
 }
-
+.quote-box {
+  background-color: #2e2e2e;
+  padding: 2rem;
+  border-radius: 5px;
+  box-shadow: 0px 0px 13px 0px rgba(255, 255, 255, 0.281) !important;
+  width: 50%;
+}
+.quote {
+  text-align: center;
+  font-size: 1.3rem;
+}
 .banner {
   font-size: 3vh !important;
   transform: translateY(-45%);
