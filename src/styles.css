@@ -24,7 +24,7 @@
 @media (min-width: 500px) {
   .quote {
     opacity: 1;
-    color: black;
+    color: white;
     position: relative;
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
       "Lucida Sans", Arial, sans-serif;
@@ -34,19 +34,12 @@
     position: relative;
     display: flex;
     align-items: center;
-    width: 100%;
+    justify-content: center;
     height: 23rem;
     border-bottom: 2px solid black;
+    background-color: rgb(34, 34, 34);
     margin-left: 0;
-    background-color: white;
     margin-right: 0;
-  }
-  .profile-pic {
-    animation-name: slidein;
-    animation-duration: 1s;
-    height: 20vh !important;
-    width: 20vh !important;
-    margin: 1vh;
   }
 }
 
@@ -74,18 +67,6 @@
   }
 }
 
-.header::before {
-  content: "";
-  position: absolute;
-  background-image: url("https://images.freeimages.com/images/large-previews/8cd/binary-code-1-1241810.jpg");
-  background-color: white;
-  background-size: 100%;
-  opacity: 0.4;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-}
 .bannerBox {
   width: 100%;
   height: 8vh;
@@ -190,7 +171,6 @@
   display: flex;
   justify-content: center;
 }
-
 @media (min-width: 1020px) {
   .about-me-text {
     font-size: 2rem !important;

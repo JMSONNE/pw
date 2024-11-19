@@ -32,11 +32,6 @@ const Home = () => {
 
 
                     <header className='header'>
-
-                        <Avatar
-                            className='profile-pic'
-                            alt="Jordyn Sonne"
-                            src={profilePic} />
                         <h1 className="quote">"Machines take me by surprise with great frequency." -Alan Turing</h1>
                     </header>
                 </div>
