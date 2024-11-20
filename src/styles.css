@@ -30,12 +30,9 @@
   }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 425px) {
   .quote {
-    font-size: x-small;
-  }
-  .quote-box {
-    display: none;
+    font-size: 0.7rem !important;
   }
 }
 .header {
