@@ -11,6 +11,8 @@ const Home = () => {
     const javascriptsRepoLink = `https://github.com/JMSONNE/capstone-client`;
     const inAndOutLink = `https://in-out-gules.vercel.app`;
     const inAndOutRepoLink = `https://github.com/JMSONNE/In-Out`;
+    const personalityTestRepoLink = `https://github.com/JMSONNE/Personality-test`;
+    const personalityTestLink = `https://personality-test-delta.vercel.app/`;
 
     // Function to handle buttons to external projects
     const handleLinks = (link) => {
@@ -81,7 +83,9 @@ const Home = () => {
                 </Box>
 
                 {/* Section for external projects to be displayed using cards from MUI */}
-                <Grid container spacing={3} sx={{ display: 'flex', justifyContent: 'center', textAlign: 'center', mb: '12vh' }}>
+                <Grid container spacing={3} sx={{
+                    display: 'flex', justifyContent: 'center', textAlign: 'center', mb: '12vh', flexDirection: 'row'
+                }}>
 
                     {/* Card for JavaScripts Cofee arranged using the Grid component from MUI*/}
 
@@ -120,7 +124,27 @@ const Home = () => {
                             </CardContent>
                             <CardActions sx={{ display: 'flex', justifyContent: 'space-between' }}>
                                 <Button size="small" onClick={() => handleLinks(inAndOutLink)}>Visit Site</Button>
-                                <Button size="small" onClick={() => handleLinks(inAndOutRepoLink)}>Visit Repository</Button>
+                                <Button size="small" onClick={() => handleLinks(personalityTestRepoLink)}>Visit Repository</Button>
+                            </CardActions>
+                        </Card>
+                    </Grid>
+
+                    {/* Card for Personality test*/}
+
+                    <Grid item xs={12} md={6} lg={6} xl={4} sx={{ display: 'flex', justifyContent: 'center', textAlign: 'center' }}>
+                        <Card className='card'>
+
+                            <CardContent>
+                                <Typography gutterBottom variant="h5" component="div">
+                                    Personality Test
+                                </Typography>
+                                <Typography variant="body2" color="text.secondary" sx={{ marginTop: '3rem' }}>
+                                    A small little MBTI personality test.
+                                </Typography>
+                            </CardContent>
+                            <CardActions sx={{ display: 'flex', justifyContent: 'space-between' }}>
+                                <Button size="small" onClick={() => handleLinks(personalityTestLink)}>Visit Site</Button>
+                                <Button size="small" onClick={() => handleLinks(personalityTestRepoLink)}>Visit Repository</Button>
                             </CardActions>
                         </Card>
                     </Grid>
